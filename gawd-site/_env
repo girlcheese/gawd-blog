@@ -1,0 +1,28 @@
+DB_NAME='davidcar_wp603'
+DB_USER='davidcar_wp603'
+DB_PASSWORD='n1two0dc!'
+
+# Optionally, you can use a data source name (DSN)
+# When using a DSN, you can remove the DB_NAME, DB_USER, DB_PASSWORD, and DB_HOST variables
+# DATABASE_URL='mysql://database_user:database_password@database_host:database_port/database_name'
+
+# Optional variables
+DB_HOST='localhost'
+DB_PREFIX='gd_'
+
+WP_ENV='production'
+WP_HOME='https://www.gawd.blog'
+WP_SITEURL="${WP_HOME}/wp"
+WP_DEBUG_LOG=/path/to/debug.log
+
+# Generate your keys here: https://roots.io/salts.html
+AUTH_KEY='9fgF-e!;]^b*b$D.D45;!($n*Pky%m0^4r1kX+q4`#2IX;h5tFUi9VXmlF;gJ[cd'
+SECURE_AUTH_KEY='%;/jUsa3r=w&xMqal%k{PT<N_<NT2no[f7cb4_L3DPHW1j,$%}0[e+K1xRX[Ag0`'
+LOGGED_IN_KEY='S.oWh>.2phYB/>W(4LR_[$h7,t!3pb4C9BJ2svHBU,XdaIW`=aIqg[jhX)R:E5T,'
+NONCE_KEY='290WCca]BE/|t)[du6fxNS1${Trw-IX/mFJ30uHFO6fvjLCS:CU,3lVl%7{?l*^:'
+AUTH_SALT='W0!DZ@[A@(I4XrLRsiGb:9<t^!Xu2sl_aNvl0+|v,)&L6W?tUJt+hJXK#`][8B.e'
+SECURE_AUTH_SALT='|CyUv]2K1Bo8.,fl-YEF>xLv2tM1E4y,gk/L1oPh!D{_G{;ZdM)2S`18seb=9nMQ'
+LOGGED_IN_SALT='!=LDR6?i[zeAZ=]9ff$!tGF+`,^/Z76D<d*^C#S[w*a[Yq<^3-D14-@oyQp1m*4J'
+NONCE_SALT='*-!5=a&PAuVi;EhmRO,>*b|YrwU7`DC)bQX<|r5wlAoPkaEqwm_d%Hf}qzpYhKO-'
+
+APP_KEY=appkeyhere
